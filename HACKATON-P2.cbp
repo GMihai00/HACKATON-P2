@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="HACKATON-P2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/HACKATON-P2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/HACKATON-P2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Boxa.cpp" />
+		<Unit filename="Boxa.h" />
+		<Unit filename="CMedical.cpp" />
+		<Unit filename="CMedical.h" />
+		<Unit filename="Hambar.cpp" />
+		<Unit filename="Hambar.h" />
+		<Unit filename="Pmatur.cpp" />
+		<Unit filename="Pmatur.h" />
+		<Unit filename="Pmic.cpp" />
+		<Unit filename="Pmic.h" />
+		<Unit filename="Porc.cpp" />
+		<Unit filename="Porc.h" />
+		<Unit filename="SFurajare.cpp" />
+		<Unit filename="SFurajare.h" />
+		<Unit filename="Scroafa.cpp" />
+		<Unit filename="Scroafa.h" />
+		<Unit filename="data.out" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
